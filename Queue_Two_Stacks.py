@@ -29,3 +29,5 @@ class Queue2Stacks(object):
                 # Add the elements to the outstack to reverse the order when called
                 self.outstack.append(self.instack.pop())
         return self.outstack.pop()
+
+#update v2
